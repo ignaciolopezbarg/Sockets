@@ -6,7 +6,7 @@ const router = express.Router();
 
 const productsFilePath = path.resolve("./src/models/products.json");
 
-const getProducts = () => {
+export const getProducts = () => {
   try {
     const data = fs.readFileSync(productsFilePath, "utf-8");
     return JSON.parse(data) || [];

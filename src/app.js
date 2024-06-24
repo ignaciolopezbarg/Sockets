@@ -3,14 +3,14 @@ import { engine } from 'express-handlebars';
 import { Server } from 'socket.io';
 import productsRouter from "./routes/products.routes.js";
  import cartsRouter from "./routes/carts.routes.js";
-import viewsRouter from "./routes/views.routes.js";
+import viewsRouter from "./routes/vistas.routes.js";
 
 const app = express();
 const PORT = 8080;
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-app.use(express.static( './src/public'));
+app.use(express.static('./src/public'));
 
 
 // Motores de Plantilla
