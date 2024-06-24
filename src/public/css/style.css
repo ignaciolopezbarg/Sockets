@@ -12,3 +12,15 @@ span{
     background-color: rgba(31, 29, 28, 0.142);
     padding: 20px;
 }
+.contenedor{
+    display: block;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+.tarjeta{
+    border: 2px solid blue;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+    padding: 3px;
+}
