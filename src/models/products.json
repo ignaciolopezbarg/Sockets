@@ -20,16 +20,6 @@
     "img": "no hay imagenes"
   },
   {
-    "id": 5,
-    "title": "Lewis_Hamilton",
-    "description": "funko coleccionable",
-    "code": "AS1012",
-    "price": 650,
-    "stock": 4,
-    "category": "sports",
-    "img": "no hay imagenes"
-  },
-  {
     "id": 6,
     "title": "Pidgeotto",
     "description": "funko coleccionable",
@@ -48,5 +38,15 @@
     "stock": "200",
     "category": "SPORTS",
     "code": "LOP251f"
+  },
+  {
+    "id": 9,
+    "title": "Cuti",
+    "description": "funkos-seleccion",
+    "price": "15000",
+    "img": "",
+    "stock": "30",
+    "category": "sports",
+    "code": "AFC123"
   }
 ]
