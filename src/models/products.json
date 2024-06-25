@@ -1,15 +1,5 @@
 [
   {
-    "id": 3,
-    "title": "Harry",
-    "description": "funko coleccionable",
-    "code": "AC1011",
-    "price": 2650,
-    "stock": 30,
-    "category": "harry_potter",
-    "img": "no hay imagenes"
-  },
-  {
     "id": 4,
     "title": "Messi",
     "description": "funko coleccionable",
@@ -17,16 +7,6 @@
     "price": 50650,
     "stock": 40,
     "category": "sports",
-    "img": "no hay imagenes"
-  },
-  {
-    "id": 6,
-    "title": "Pidgeotto",
-    "description": "funko coleccionable",
-    "code": "Ap103",
-    "price": 1850,
-    "stock": 1,
-    "category": "pokemon",
     "img": "no hay imagenes"
   },
   {
@@ -48,5 +28,45 @@
     "stock": "30",
     "category": "sports",
     "code": "AFC123"
+  },
+  {
+    "id": 11,
+    "title": "Scaloni",
+    "description": "funkos-seleccion",
+    "price": "10000",
+    "img": "",
+    "stock": "15",
+    "category": "sports",
+    "code": "GH21"
+  },
+  {
+    "id": 12,
+    "title": "Otamendi",
+    "description": "funkos-seleccion",
+    "price": "8000",
+    "img": "",
+    "stock": "5",
+    "category": "sports",
+    "code": "AR101"
+  },
+  {
+    "id": 13,
+    "title": "McAllister",
+    "description": "funkos-seleccion",
+    "price": "6200",
+    "img": "",
+    "stock": "52",
+    "category": "sports",
+    "code": "RA100"
+  },
+  {
+    "id": 14,
+    "title": "El-Diego",
+    "description": "funkos-coleccion",
+    "price": "20000",
+    "img": "",
+    "stock": "25",
+    "category": "leyendas",
+    "code": "RA1"
   }
 ]
