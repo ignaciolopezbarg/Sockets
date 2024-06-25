@@ -2,7 +2,7 @@ import express from "express";
 import { engine } from 'express-handlebars';
 import { Server } from 'socket.io';
 import productsRouter, { getProducts,deleteProduct,guardarProducts} from "./routes/products.routes.js";
- import cartsRouter from "./routes/carts.routes.js";
+import cartsRouter from "./routes/carts.routes.js";
 import viewsRouter from "./routes/vistas.routes.js";
 
 const app = express();

@@ -50,16 +50,6 @@
     "code": "AR101"
   },
   {
-    "id": 13,
-    "title": "McAllister",
-    "description": "funkos-seleccion",
-    "price": "6200",
-    "img": "",
-    "stock": "52",
-    "category": "sports",
-    "code": "RA100"
-  },
-  {
     "id": 14,
     "title": "El-Diego",
     "description": "funkos-coleccion",
@@ -68,5 +58,25 @@
     "stock": "25",
     "category": "leyendas",
     "code": "RA1"
+  },
+  {
+    "id": 15,
+    "title": "Gallardo",
+    "description": "Funkos-muñeco",
+    "price": "25000",
+    "img": "",
+    "stock": "25",
+    "category": "sports",
+    "code": "MKO12"
+  },
+  {
+    "id": 17,
+    "title": "julian",
+    "description": "funkos-seleccion",
+    "price": "12500",
+    "img": "",
+    "stock": "15",
+    "category": "sports",
+    "code": "GJ125"
   }
 ]

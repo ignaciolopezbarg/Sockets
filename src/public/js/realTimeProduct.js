@@ -12,13 +12,13 @@ const renderProductos = (data) => {
 
   data.forEach((item) => {
     const card = document.createElement("div");
-    //dar estilo aca
-    card.innerHTML = ` <p> ${item.id} </p>
-                      <p> ${item.title} </p>
-                      <p> ${item.description} </p>
-                      <p> ${item.price} </p>
-                      <p> ${item.stock} </p>
-                      <p> ${item.code} </p>
+    card.classList.add('card')
+    card.innerHTML = ` <p> Id: ${item.id} </p>
+                      <p> Nombre: ${item.title} </p>
+                      <p> Descripcion: ${item.description} </p>
+                      <p> Precio: $${item.price} </p>
+                      <p> Stock: ${item.stock} </p>
+                      <p> Code: ${item.code} </p>
                       <button> Eliminar </button> `;
 
     contenedorProductos.appendChild(card);
