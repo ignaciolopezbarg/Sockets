@@ -76,7 +76,7 @@ router.post("/", (req, res) => {
 router.get("/:cid", (req,res)=> {
   const cid =parseInt(req.params.cid, 10) ;
   const carts = getCarts();
-  const carritoBuscado = carts.find(cart => cart.cid === cid)
+  const carritoBuscado = carts.find(cart => parseInt(cart.cid) === parseInt(cid))
   if(!carritoBuscado){
     res.status(404).json({ error:'Disculpe, no se encuentra el carrito'});
   } else{

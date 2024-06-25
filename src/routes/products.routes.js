@@ -15,9 +15,22 @@ export const getProducts = () => {
     return [];
   }
 };
-const guardarProducts = (products) => {
+export const guardarProducts = (products) => {
   fs.writeFileSync(productsFilePath, JSON.stringify(products, null, 2));
 };
+export const deleteProduct = (id) => {
+  const products = getProducts();
+  const productIndex = products.findIndex((p) => p.id === id);
+
+  if (productIndex !== -1) {
+    products.splice(productIndex, 1);
+    guardarProducts(products);
+    return { success: true, message: `El producto con id ${id} fue eliminado con éxito` };
+  } else {
+    return { success: false, message: "Producto NO ENCONTRADO" };
+  }
+};
+
 //Ruta para traer los productos cuando se carguen al servidor
 router.get("/", (req, res) => {
   const products = getProducts()
