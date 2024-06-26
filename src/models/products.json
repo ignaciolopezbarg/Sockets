@@ -78,5 +78,15 @@
     "stock": "15",
     "category": "sports",
     "code": "GJ125"
+  },
+  {
+    "id": 18,
+    "title": "lauti",
+    "description": "funko-seleccion",
+    "price": "12500",
+    "img": "",
+    "stock": "150",
+    "category": "sports",
+    "code": "GJ126"
   }
 ]
